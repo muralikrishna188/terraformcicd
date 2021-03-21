@@ -29,7 +29,7 @@ variable "client_secret" {
 }
 
 locals {
-  setup_name = "practice-hyd"
+  setup_name = "practice-hyd1"
 }
 
 provider "azurerm" {
