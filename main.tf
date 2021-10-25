@@ -4,7 +4,7 @@ terraform {
       storage_account_name = "azurermstorage12"
       container_name = "newtf"
       key            = "azure.newtf"
-      access_key     = "nYxE3hirB282Jo1BKJbxmOteUP2dS5HkaIoNsmteCcsaUFnl4nqBMKA4E7DM19ckY8SliFIHXQ0jkIR33HO2fA=="
+      access_key     = "vSkZ6GKNr3efLqcg5uxhXlVhAJ/R/GBNXjjCAu59jZPw2ea4+2P9cykeaO/8mhWaTploV3kUzDn+SufxpT9Ydg=="
   }
 }
 
