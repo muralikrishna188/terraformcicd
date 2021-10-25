@@ -1,10 +1,10 @@
 terraform {
   backend "azurerm" {
-      resource_group_name = "backendazure"
-      storage_account_name = "azurermstorage12"
-      container_name = "newtf"
-      key            = "azure.newtf"
-      access_key     = "vSkZ6GKNr3efLqcg5uxhXlVhAJ/R/GBNXjjCAu59jZPw2ea4+2P9cykeaO/8mhWaTploV3kUzDn+SufxpT9Ydg=="
+      resource_group_name = "storageterraform"
+      storage_account_name = "terraformstrg"
+      container_name = "devcontainer"
+      key            = "azure.devcontainer"
+      access_key     = "qwLWvTe4JLr+KgrYkPjLfphBq9a2QpAbz/FUdobJHXqEusbzNFYD7QKhP00Y3/Q+lGW9gA0IjRP9xcn2Rv4oIA=="
   }
 }
 
