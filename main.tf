@@ -1,11 +1,12 @@
 terraform {
-  backend "azurerm" {
-      resource_group_name = "storageterraform"
-      storage_account_name = "terraformstrg"
-      container_name = "devcontainer"
-      key            = "azure.devcontainer"
-      access_key     = "qwLWvTe4JLr+KgrYkPjLfphBq9a2QpAbz/FUdobJHXqEusbzNFYD7QKhP00Y3/Q+lGW9gA0IjRP9xcn2Rv4oIA=="
-  }
+    backend "azurerm" {
+        resource_group_name = "tfstatestoragestg1"
+        storage_account_name = "tfstatestorageus1"
+        container_name = "tfstateprod2"
+        key = "terraform.tfstateprod2"
+        access_key = "ZPxpNfV6uBi7j7ZaccrTQcCJ2Zp5thorYu6cCcPmVH4wiRstYeMYorEScNiuLzLyAhfeHaweigYqANzj5b27Pw=="
+      
+    }
 }
 
 variable "subscription_id" {
